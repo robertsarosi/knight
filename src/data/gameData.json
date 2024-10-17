@@ -29,8 +29,19 @@
     }
   ],
   "map": [
-    ["grass", "grass", "forest", "castle", "inn"],
-    ["grass", "forest", "grass", "grass", "inn"],
-    ["grass", "forest", "grass", "grass", "town"]
+    [
+      {"name": "grassutfelsobalsarok", "image_bg": "medievalTile_17.png"}, 
+      {"name": "grassutvizszintes", "image_bg": "medievalTile_04.png"}, 
+      {"name": "castlefelsobalsarok", "image_bg": "medievalTile_57.png", "image_structure":"medievalStructure_01.png"}, 
+      {"name": "castlefelsojobbsarok", "image_bg": "medievalTile_57.png", "image_structure":"medievalStructure_02.png"},
+      {"name": "inn", "image_bg": "medievalTile_21.png"}
+    ],
+    [
+      {"name": "grass", "image_bg": "medievalTile_22.png"}, 
+      {"name": "road", "image_bg": "medievalTile_57.png"}, 
+      {"name": "road", "image_bg": "medievalTile_57.png", "image_structure":"medievalStructure_05.png"}, 
+      {"name": "road", "image_bg": "medievalTile_57.png", "image_structure":"medievalStructure_06.png"}, 
+      {"name": "road", "image_bg": "medievalTile_57.png"}
+    ]
   ]
 }
